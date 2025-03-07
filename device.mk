@@ -69,3 +69,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/berlin/berlin-vendor.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
